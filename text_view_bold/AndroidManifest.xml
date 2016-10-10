@@ -3,7 +3,7 @@
       package="com.cirosantilli.android_cheat.text_view_bold"
       android:versionCode="1"
       android:versionName="1.0">
-    <uses-sdk android:minSdkVersion="22" />
+    <uses-sdk android:minSdkVersion="19" />
     <application android:label="AndroidCheatTextViewBold">
         <activity android:name="Main">
             <intent-filter>
