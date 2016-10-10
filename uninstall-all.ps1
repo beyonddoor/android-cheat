@@ -1,0 +1,1 @@
+adb shell pm list package | sort | grep com.cirosantilli. | %{adb shell pm uninstall $_.substring(8, $_.length-8)}
